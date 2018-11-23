@@ -1,0 +1,17 @@
+//
+//  Hotel.h
+//  HotelZJF
+//
+//  Created by sjl on 2018/6/15.
+//  Copyright © 2018年 sjl. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface Book : NSObject
+
+@property NSString *BookID;
+@property NSString *bookKindName;
+@property NSString *bookName;
+@property NSString *bookPrice;
+@end
