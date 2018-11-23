@@ -17,7 +17,7 @@
 -(void)makeData{
     BookKind *bookClass = [[BookKind alloc]init];
     bookClass.BookKindID = @"1";
-    bookClass.BookKindName = @"工业技术aaaa";
+    bookClass.BookKindName = @"工业技术";
     [self.bookClassList addObject:bookClass];
     
     bookClass = [[BookKind alloc]init];
